@@ -1,0 +1,25 @@
+/* 기본 설정 */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+  }
+  
+  /* 텍스트 컨테이너 */
+  .text-container {
+    font-size: 30px;
+    color: #333;
+    line-height: 25; /* 기본 줄 간격 */
+    max-width: 800px;
+    height: 100vh; /* 화면 높이를 가득 채움 */
+    overflow-y: auto; /* 텍스트가 넘치면 스크롤 활성화 */
+    text-align: center;
+    white-space: pre-wrap; /* 줄바꿈 허용 */
+  }
+      
